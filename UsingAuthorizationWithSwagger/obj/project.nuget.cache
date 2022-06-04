@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CPZ0+7h76ZNNrrhDVRNCd6RL/St2g+eH36EHFDbx61HSR4OtiCQui744fM43RNNTmdpmBFUCBnClsPzVOauxzQ==",
+  "dgSpecHash": "Hr+JvxZFzEAwBX3fzMou3uE6xYWyBeC0BMW9bdbFNZc58DwCqpLV9FmnFfdOBL4kT/c821b+C/vqaINgARfsYA==",
   "success": true,
-  "projectFilePath": "/home/nixel549/Git/AuthorizationWithRolesExample/UsingAuthorizationWithSwagger/UsingAuthorizationWithSwagger/UsingAuthorizationWithSwagger.csproj",
+  "projectFilePath": "/home/nixel549/Git/AuthorizationWithRolesExample/UsingAuthorizationWithSwagger/UsingAuthorizationWithSwagger.csproj",
   "expectedPackageFiles": [
     "/home/nixel549/.nuget/packages/fastendpoints/4.2.0/fastendpoints.4.2.0.nupkg.sha512",
     "/home/nixel549/.nuget/packages/fastendpoints.swagger/4.2.0/fastendpoints.swagger.4.2.0.nupkg.sha512",

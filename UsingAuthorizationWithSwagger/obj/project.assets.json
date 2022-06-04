@@ -3825,11 +3825,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/nixel549/Git/AuthorizationWithRolesExample/UsingAuthorizationWithSwagger/UsingAuthorizationWithSwagger/UsingAuthorizationWithSwagger.csproj",
+      "projectUniqueName": "/home/nixel549/Git/AuthorizationWithRolesExample/UsingAuthorizationWithSwagger/UsingAuthorizationWithSwagger.csproj",
       "projectName": "UsingAuthorizationWithSwagger",
-      "projectPath": "/home/nixel549/Git/AuthorizationWithRolesExample/UsingAuthorizationWithSwagger/UsingAuthorizationWithSwagger/UsingAuthorizationWithSwagger.csproj",
+      "projectPath": "/home/nixel549/Git/AuthorizationWithRolesExample/UsingAuthorizationWithSwagger/UsingAuthorizationWithSwagger.csproj",
       "packagesPath": "/home/nixel549/.nuget/packages/",
-      "outputPath": "/home/nixel549/Git/AuthorizationWithRolesExample/UsingAuthorizationWithSwagger/UsingAuthorizationWithSwagger/obj/",
+      "outputPath": "/home/nixel549/Git/AuthorizationWithRolesExample/UsingAuthorizationWithSwagger/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/nixel549/.nuget/NuGet/NuGet.Config"
