@@ -1,4 +1,4 @@
-### Simple PoC of the most minimal authentication possible in .NET 6 using  [FastEndpoints](hhttps://github.com/dj-nitehawk/FastEndpoints)
+ Simple PoC of the most minimal authentication possible in .NET 6 using  [FastEndpoints](https://github.com/dj-nitehawk/FastEndpoints)
 
 
 ## Contributing
