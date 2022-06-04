@@ -2,12 +2,13 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
+using FastEndpoints;
+using FastEndpoints.Swagger;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddFastEndpoints();
+builder.Services.AddSwaggerDoc();
 
-// Add services to the container.
-
-builder.Services.AddControllers();
 
 builder.Services.AddAuthentication(opt =>
 {
@@ -60,26 +61,13 @@ builder.Services.AddSwaggerGen(opt =>
 });
 
 var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseDeveloperExceptionPage();
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
 app.UseHttpsRedirection();
-
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
-
-app.UseEndpoints(endpoints =>
-{
-    endpoints.MapControllers();
-});
-
+app.UseFastEndpoints();
+app.UseOpenApi();
+app.UseSwaggerUi3(c => c.ConfigureDefaults());
 app.Run();
 
 public partial class Program { }
